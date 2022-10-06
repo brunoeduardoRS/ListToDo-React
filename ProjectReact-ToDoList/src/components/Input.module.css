@@ -1,0 +1,27 @@
+.input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -27px;
+  gap: 8px;
+}
+.input input {
+  background-color: var(--gray-500);
+  color: var(--gray-100);
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  width: 523px;
+  height: 54px;
+  border: none;
+  border-radius: 5px;
+  padding: 16px;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+.input input:focus {
+  border: 1px solid var(--purple-dark);
+}

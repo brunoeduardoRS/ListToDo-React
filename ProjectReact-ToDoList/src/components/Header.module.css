@@ -1,0 +1,13 @@
+.header {
+  height: 200px;
+  display: flex;
+  margin: 0 auto;
+  background-color: var(--gray-700);
+  justify-content: center;
+}
+.header img {
+  margin-top: 72px;
+  margin-bottom: 80px;
+  width: 126px;
+  height: 48px;
+}
