@@ -2,6 +2,7 @@ import reactLogo from "./assets/react.svg";
 import "./global.css";
 import { Header } from "./components/Header";
 import { Input } from "./components/Input";
+import { Task } from "./components/Task";
 
 import styles from "./App.module.css";
 function App() {
@@ -12,5 +13,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
